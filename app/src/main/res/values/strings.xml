@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyZakat Gold</string>
+    <string name="copyright"> Copyright &#169; 2021 Mas and Jannah </string>
+    <string name="About">About</string>
+    <string name="about_text"> MyZakat Gold was developed by Nurul Jannah Binti Saadat and Masturina Binti azmi.
+        MyZakat Gold helps users to make it easier for them to calculate the amount of gold zakat that will be charged in a certain amount.
+        The app is built solely to give users an estimate of the value that may be charged.</string>
+    <string name="about_text2">1)RCS2405A_Nurul Jannah Binti Sa’adat_2019423798_CS240, 2)
+RCS2405A_Masturina Binti Azmi_2019805396_CS240</string>
+    <string name="btnReset">Reset</string>
+    <string name="logout">Logout</string>
+    <string name="imgDescription">BackGround Picture</string>
+    <string name="addGoldWeight">GoldWeight(Gram)</string>
+    <string name="addGoldValue">GoldValue(RM)</string>
+    <string name="btnCalc">Calculate</string>
+</resources>

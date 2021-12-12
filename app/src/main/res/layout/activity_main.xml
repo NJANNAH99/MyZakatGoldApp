@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFEB3B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="181dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dip"
+            android:layout_marginBottom="20dip"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imgDescription"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/image_2021_12_11_10_31_47">
+
+        </ImageView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addGoldWeight"
+                android:layout_width="377dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="50dip"
+                android:layout_marginBottom="10dip"
+                android:background="#F4F6F6"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/addGoldWeight"
+                android:textSize="14sp"
+                tools:text="Gold Weight(gram)" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addGoldValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/addGoldValue"
+                android:textColor="#0B0A0A"
+                android:textSize="14sp"
+                tools:text="Gold Value (RM)" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#2196F3"
+            android:dropDownWidth="match_parent"
+            android:spinnerMode="dropdown"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCalc"
+            tools:text="Calculate" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnReset" />
+
+        <TextView
+            android:id="@+id/tvOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvOutput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvOutput3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

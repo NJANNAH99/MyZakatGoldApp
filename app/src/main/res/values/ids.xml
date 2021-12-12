@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="addGoldWeight" type="id"/>
+    <item name="addGoldValue" type="id"/>
+    <item name="btnCalc" type="id"/>
+    <item name="tvOutput" type="id"/>
+    <item name="tvOutput2" type="id"/>
+    <item name="tvOutput3" type="id"/>
+    <item name="btnReset" type="id"/>
+</resources>
